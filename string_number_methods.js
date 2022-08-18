@@ -60,6 +60,6 @@ const prompt = require('prompt-sync')();
 // var city1 = "Chicago";
 // var city2 = "New York City";
 // var city3 = "Los Angelos";
-// console.log("Three big cities in th U.S. are : " + city1 + ", " + city2 + ", and " + city3)
+// console.log("Three big cities in th U.S. are: " + city1 + ", " + city2 + ", and " + city3)
 
 // # SOLUTIONS: https://gist.github.com/peterxjang/79ba5acc912a86cce2a18c2f14b1c712
