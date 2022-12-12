@@ -1,76 +1,81 @@
+const prompt = require('prompt');
+
+prompt.start();
+
 // # 1. Write a while loop to print the numbers 1 through 10.
-// var index = 1;
-// while (index <= 10) {
-//   console.log(index);
-//   index ++
+
+// for (let i = 1; i < 11; i++) {
+//   console.log(i)
 // }
 
 // # 2. Write a while loop that prints the word "hello" 5 times.
-// var index = 1;
-// while (index < 6) {
-//   console.log("hello");
-//   index ++
+
+// for (let i = 1; i < 6; i ++) {
+//   console.log("hello")
 // }
 
 // # 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
-const prompt = require('prompt-sync')();
+
 // while (true) {
-//   var entry = prompt("enter a word: ");
-//   if (entry === "stop") {
+//   const input = prompt.get("Enter a word: ");
+//   if (input === "stop") {
 //     break;
 //   }
 // }
 
 // # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
-// var index = 0
-// while (index <= 100) {
-//   console.log(index);
-//   index += 5;
+
+// for (let i = 0; i < 101; i += 5) {
+//   console.log(i)
 // }
 
 // # 5. Write a while loop that prints the number 9000 ten times.
-// var number = 9000;
-// index = 0;
-// while (index < 10) {
-//   console.log(number);
-//   index ++
+
+// for (let i = 0; i < 10; i ++) {
+//   console.log(9000)
 // }
 
 // # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
+
 // while (true) {
-//   var number = prompt("Enter a number: ");
-//   if (number > 10) {
+//   var input = prompt.get("Enter a number: ");
+//   if (parseInt(input) > 10) {
 //     break;
 //   }
 // }
 
 // # 7. Write a while loop that prints the numbers 50 to 70.
-// var index = 50;
-// while(index <= 70) {
-//   console.log(index);
-//   index ++
+
+// let i = 50
+// while (i < 71) {
+//   console.log(i)
+//   i++
 // }
 
 // # 8. Write a while loop that prints the phrase "Around the world" 144 times.
-// index = 0;
-// while (index < 144) {
-//   console.log("Around the world");
-//   index ++
+
+// let i = 0
+// while (i < 145) {
+//   console.log("Around the world")
+//   i++
 // }
 
 // # 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
+
 // while (true) {
-//   var word = prompt("enter a word: ")
-//   if (word.length > 5) {
+//   var input = prompt.get("Enter a word: ");
+//   if (input.length > 5) {
 //     break;
 //   }
 // }
 
 // # 10. Write a while loop that prints the even numbers from 2 to 40.
-var index = 2;
-while (index <= 40) {
-  console.log(index);
-  index += 2
-}
+
+// let i = 2
+// while (i < 21) {
+//   console.log(i)
+//   i += 2
+// }
+
 
 // # SOLUTIONS: https://gist.github.com/peterxjang/c4ec0e0f8f6e123d65ada9bf3100068b
